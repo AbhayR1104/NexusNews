@@ -72,9 +72,6 @@ def load_rag_pipeline(topic, article_limit):
     
     return qa_chain, articles
 
-# --- Streamlit User Interface ---
-# The code below this line runs instantly.
-
 st.title("NexusNews")
 st.subheader("Your AI-Powered News Intelligence Chatbot")
 
